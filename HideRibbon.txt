@@ -1,0 +1,7 @@
+<style type="text/css">
+
+#Ribbon.ListItem.New.NewListItem-Large
+{    
+display:none;
+} 
+</style>

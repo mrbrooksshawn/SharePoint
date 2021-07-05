@@ -1,0 +1,4 @@
+<script type="text/javascript">
+      document.getElementById("s4-leftpanel").style.display = "none";
+      document.getElementById("MSO_ContentTable").style.marginLeft = "0px";
+ </script>

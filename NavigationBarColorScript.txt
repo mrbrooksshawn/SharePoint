@@ -1,0 +1,7 @@
+<style>
+
+
+    DIV #s4-topheader2 {
+    BACKGROUND-IMAGE: none; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #D3CE99; PADDING-TOP: 4px
+    }
+</style>

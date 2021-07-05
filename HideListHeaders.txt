@@ -1,0 +1,5 @@
+<style>
+
+.ms-viewheadertr { display: none;}
+
+</style>

@@ -1,0 +1,10 @@
+<style type="text/css">
+BODY #s4-leftpanel {
+	DISPLAY: none
+}
+.s4-ca {
+	MARGIN-LEFT: 0px
+}
+.s4-title {
+	DISPLAY: none
+}</style>

@@ -1,0 +1,10 @@
+<style type="text/css">
+
+rows
+.ms-vb2, .ms-vb {font-size: 16pt;}
+
+row header
+TH .ms-vb {font-size: 16pt; }
+
+
+</style>
