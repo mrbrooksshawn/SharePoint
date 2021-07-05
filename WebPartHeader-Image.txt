@@ -1,0 +1,10 @@
+<style>
+
+    .ms-webpart-chrome-title {
+      vertical-align: middle;
+      position: relative;
+      margin-bottom: 2px;
+      background-image: url(your iamge location);
+      background-repeat: no-repeat;
+    }
+</style>

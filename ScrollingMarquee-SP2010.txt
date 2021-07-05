@@ -1,0 +1,6 @@
+<style>
+<marquee scrollamount="1" scrolldelay="10" direction="up" width="200" height="50" style="font-family: calibri; font-size: 12pt">
+ENTER TEXT MESSAGE HERE 
+</marquee>
+
+</style>
