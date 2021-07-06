@@ -1,0 +1,7 @@
+/////RESAVE THIS AND INSERT THE PATH OF THE IMAGE/////
+
+<!--DOCTYPE html--><style>
+
+.ms-bodyareacell {
+    BACKGROUND-IMAGE: url(http://............. .jpg); MARGIN: 0px; BACKGROUND-ATTACHMENT; fixed; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-POSITION: center; BACKGROUND-REPEAT: repeat; 
+}</style>

@@ -1,0 +1,15 @@
+="<div style='font-size:16px; text-align: center; color:red; '>"&TEXT([Due Date],"MMM DD YYYY"&"</div>")
+
+
+////If you want to add bold, add this in FIRST... 'font-weight:bold;...///
+
+
+
+///With just Completed in Black font///
+
+=IF([Status]="Completed","<div style='padding:5px; white-space:nowrap; text-align: center; '>"&[Status]&"</div>","<div style='font-size:12px; text-align: center; color:red; '>"&TEXT([Status],""&"</div>"))
+
+
+///With Completed and Canceled in Black font///
+
+=IF(Status="Completed","<div style='padding:1px; text-align: left; '>"&Status&"</div>",IF(Status="Canceled","<div style='text-align: left; '>"&Status&"</div>", "<div style='font-size:12px; text-align: left; color:red; '>"&TEXT(Status,""&"</div>")))

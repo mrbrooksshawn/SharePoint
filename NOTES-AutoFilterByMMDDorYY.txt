@@ -1,0 +1,54 @@
+http://sharepointtricksortreats.blogspot.com/2013/09/list-view-automatically-filter-by.html#!/2013/09/list-view-automatically-filter-by.html 
+
+***DON'T use TODAY in the calculation below... use NOW***
+
+Calculated Column 1: Determine Today's Month and Year
+1.Create a calculated column
+2.Name the column Current MM-YY
+3.In the formula field, type the following: =Text(NOW(),"MM-YY")
+4.The "Single line of text" radio button should be selected
+5.If applicable, the "Add to all content types" box should be unchecked.
+6.If applicable, the "Add to default view" box should be unchecked.
+
+
+
+Calculated Column 2: Determine the Month and Year of a User Provided Date
+1.Create another calculated column
+2.Name the column Effective MM-YY
+1.For my list, the Effective Date is a date provided by the user.
+2.I will show you how to modify this if you want to use the system generated Created or Modified date instead.
+3.In the formula field, type the following: =Text[Effective Date],"MM-YY")
+4.The "Single line of text" radio button should be selected
+5.If applicable, the "Add to all content types" box should be unchecked.
+6.If applicable, the "Add to default view" box should be unchecked.
+
+
+Calculated Column 3: Determine If List Item is Same as Month & Year of Current Month & Year
+1.Create your last calculated column
+2.Name the column Current Month Data?
+3.In the formula field, type the following: =[Current MM-YY]=[Effective Date MM-YY]
+4.The "Yes/No" radio button should be selected.
+5.If applicable, the "Add to all content types" box should be unchecked.
+6.If applicable, the "Add to default view" box should be unchecked.
+
+
+Create Your Custom View
+
+ 1. Create a new view and name it Current Month's Data
+ 2. In the Filter section, select the "Show items only when the following is true:" radio button.
+ 3. Select "Current Month Data?" from the first combo box.
+ 4. Select "is equal to" from the second combo box.
+ 5. Type the word "YES" in the text field.
+
+
+You will now have a view that it is ALWAYS filtered to show the current month's data!
+
+
+How to Use this with the Created or Modified Date as the Effective Date
+
+ In this example, I am filtering based upon a user provided date.
+ If you want your filter to apply to the system generated Created date or Modified date, take the following action:
+
+1.Create Calculated Column 1 as-is.
+2.Create Calculated Column 2 with a modified formula.
+To use the Created date in place of Effective Date, name the column Created MM-YY and use the following formula. Make everything else like I described in the Column 2 instructions above.

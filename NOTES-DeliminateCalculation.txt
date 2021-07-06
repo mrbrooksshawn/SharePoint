@@ -1,0 +1,6 @@
+//DELIMINATE//
+
+=LEFT([RCS #], 2)
+
+
+///The number "2" above tells the calculation how many characters from the left to pull out///

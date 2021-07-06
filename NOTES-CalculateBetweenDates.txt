@@ -1,0 +1,8 @@
+//Calculate until today (Now)//
+
+=DATEDIF([Initial Submission Date],NOW(),"d")
+
+
+//Calculate between dates//
+
+=DATEDIF([Initial Submission Date],[Complete],"d")

@@ -1,0 +1,11 @@
+How to calculate the Next Due Date
+
+• First create a field called [Next Due Date] and set calculated value to 
+=Today+7
+
+
+• Then create a calculated field called [*Next Due Date] with this formula
+
+="<div style='font-size:16px; color:red; '>"&TEXT([Next Due Date],"d MMM"&"</div>") 
+
+• Only display the calculated [*Next Due Date] field...
